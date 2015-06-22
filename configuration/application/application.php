@@ -10,6 +10,6 @@ return array(
     'debug' => true,
     'registration.enabled' => false,
     'cache.http' => $baseDir . '/../../cache/http',
-    'propel.configuration' => $baseDir . '/../propel/net-bazzline-media-library-conf.php',
-    'propel.models' => $baseDir . '/../../source/Net/Bazzline/MediaLibrary/Model/Database/'
+    'propel.configuration' => $baseDir . '/../propel/media-library-conf.php',
+    'propel.models' => $baseDir . '/../../source//MediaLibrary/Model/Database/'
 );
