@@ -15,10 +15,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "luracast/restler": "3.0.0",
-        "php": ">=5.3.3",
         "propel/propel1": "1.7.1",
-        "zfcampus/zf-rest": "1.1.0"
+        "zfcampus/zf-rest": "1.2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*",
