@@ -2,6 +2,8 @@
 <!-- http://www.propelorm.org/reference/schema.html -->
 <!-- http://www.propelorm.org/documentation/02-buildtime.html -->
 <database name="mediaLibrary" defaultIdMethod="native" namespace="Database">
+    <behavior name="create_entity" />
+
     <!-- authentication and user management -->
 	<table	name="user_identities" phpName="Identity" package="User" namespace="User">
 		<column name="id" primaryKey="true" type="char"	size="36" required="true" />

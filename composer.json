@@ -16,7 +16,8 @@
     "minimum-stability": "dev",
     "require": {
         "propel/propel1": "1.7.1",
-        "zfcampus/zf-rest": "1.2.0"
+        "zfcampus/zf-rest": "1.2.0",
+        "net_bazzline/php_propel_behavior_create_entity": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "4.*",
