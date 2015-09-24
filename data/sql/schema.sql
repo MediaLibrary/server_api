@@ -283,7 +283,6 @@ CREATE TABLE media_library_media_language
 (
     id CHAR(36) NOT NULL,
     name VARCHAR(120) NOT NULL,
-    shortcut CHAR(3) NOT NULL,
     PRIMARY KEY (id),
     INDEX nameIndex (name)
 ) ENGINE=InnoDB CHARACTER SET='utf8';

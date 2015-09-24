@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- http://www.propelorm.org/reference/schema.html -->
 <!-- http://www.propelorm.org/documentation/02-buildtime.html -->
-<database name="mediaLibrary" defaultIdMethod="native" namespace="Database">
+<database name="mediaLibrary" defaultIdMethod="native" namespace="MediaLibrary\Domain\Model">
     <behavior name="create_entity" />
+    <behavior name="add_to_entity_instantiator">
+        <parameter name="entity_instantiator_class_name" value="EntityInstantiator" />
+        <parameter name="entity_instantiator_namespace" value="MediaLibrary\Application\Service" />
+        <parameter name="entity_instantiator_path_to_output" value="source/MediaLibrary/Application/Service" />
+        <parameter name="entity_method_name_prefix" value="create" />
+    </behavior>
 
     <!-- authentication and user management -->
 	<table	name="user_identities" phpName="Identity" package="User" namespace="User">
@@ -256,7 +262,6 @@
     <table name="media_language" phpName="Language" package="Media" namespace="Media">
         <column name="id" primaryKey="true" type="char" size="36" required="true" />
         <column name="name" type="varchar" size="120" required="true" />
-        <column name="shortcut" type="char" size="3" required="true" />
 
 		<index name="nameIndex">
 			<index-column name="name" />

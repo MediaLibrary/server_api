@@ -9,12 +9,13 @@ Based on [http status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_co
 * /media/artist
 * /media/distributor
 * /media/edition
-* /media/platform
 * /media/genre
 * /media/language
+* /media/platform
+* /media/type
+
 * /media/search
 * /media/title
-* /media/type
 * /media/audio
 * /media/book
 * /media/comment
