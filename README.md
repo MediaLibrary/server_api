@@ -2,6 +2,12 @@
 
 * server api part for the media library
 
+# Technology Stack
+
+* [php-pm](https://github.com/php-pm/php-pm)
+* [zend expressive tooling](https://docs.zendframework.com/zend-expressive/reference/cli-tooling/)
+* [zend expressive cli](https://xtreamwayz.com/blog/2016-02-07-zend-expressive-console-cli-commands)
+
 # Old - for history reasons
 
 This project wants to provide a rest based application to manage your media library. With version 1, it will have support for audio, book, game and video.

@@ -4,7 +4,7 @@
     "description": "media library server api for audio, book, game, image, video and many more",
     "keywords": ["php", "web", "media library", "api", "rest", "audio", "book", "game", "image", "video"],
     "homepage": "https://github.com/MediaLibrary/server_api",
-    "license": "LGPL-3.0-only",
+    "license": "LGPLv3",
     "authors": [
 	    {
             "name": "Stev Leibelt",
